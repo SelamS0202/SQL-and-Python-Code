@@ -6,7 +6,7 @@ select *
 from PortfolioPro..CovidDeaths
 where continent is not null
 order by 3,4
--- Select Data that will be used 
+-- Select Data for Analysis
 Select Location, date,total_cases,new_cases,total_deaths, population
 From PortfolioPro..CovidDeaths
 where continent is not null
